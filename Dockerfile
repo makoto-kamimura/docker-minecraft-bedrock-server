@@ -49,6 +49,7 @@ COPY *.sh /opt/
 
 COPY property-definitions.json /etc/bds-property-definitions.json
 COPY bin/* /usr/local/bin/
+# COPY ./resource_packs/ /data/resource_packs/
 
 # Available versions listed at
 # https://minecraft.gamepedia.com/Bedrock_Edition_1.11.0
